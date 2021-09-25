@@ -1,0 +1,9 @@
+:root{
+    /* green */
+    --skin-color: #1fc586;
+}
+
+.themeColor div.color-3
+{
+    border-radius: 5px !important;
+}

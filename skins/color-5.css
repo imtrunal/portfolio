@@ -1,0 +1,9 @@
+:root{
+    /* red */
+    --skin-color: #cc3a3b;
+}
+
+.themeColor div.color-5
+{
+    border-radius: 5px !important;
+}

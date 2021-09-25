@@ -1,0 +1,9 @@
+:root{
+    /* orange */
+    --skin-color: #ec9412;
+}
+
+.themeColor div.color-2
+{
+    border-radius: 5px !important;
+}

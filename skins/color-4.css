@@ -1,0 +1,9 @@
+:root{
+    /* blue */
+    --skin-color: #2eb1ed;
+}
+
+.themeColor div.color-4
+{
+    border-radius: 5px !important;
+}

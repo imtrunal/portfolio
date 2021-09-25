@@ -1,0 +1,99 @@
+@media(max-width: 991px){
+    .portfolio_section .portfolio_item,
+    .service_section .service_item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 767px){
+    .contact_section .w_50,
+    .contact_section .contact_item,
+    .portfolio_popup .description,
+    .portfolio_popup .info,
+    .portfolio_section .portfolio_item,
+    .service_section .service_item,
+    .about_section .skills .skill_item,
+    .about_section .about_info,
+    .about_section .about_info,
+    .about_section .about_img,
+    .home_section .home_text,
+    .home_section .home_img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home_section .home_text{
+        order: 2;
+    }
+    .contact_section .submit_btn,
+    .home_section .home_text{
+        text-align: center;
+    }
+    .home_section .full_screen{
+        padding: 60px 0;
+    }
+    .home_section .home_img .img_box{
+        margin-bottom: 10px;
+        max-width: 350px;
+    }
+    .effect_3{
+        margin-left: -60px;
+    }
+    .effect_4{
+        left: 15%;
+    }
+    .effect_5{
+        right: 4%;
+    }
+    .effect_6{
+        left: 40%;
+    }
+    .about_section .about_img{
+        padding-bottom: 30px;
+    }
+    .about_section .timeline .timeline_item:nth-child(odd){
+        padding-right: 15px;
+        text-align: left;
+        padding-left: 75px;
+    }
+    .about_section .timeline .timeline_item:nth-child(even){
+        padding-left: 75px;
+    }
+    .about_section .timeline::before{
+        left: 35px;
+    }
+    .about_section .timeline .timeline_item:nth-child(odd) .icon{
+        right: auto;
+        left: -60px;
+    }
+    .about_section .timeline .timeline_item:nth-child(even) .icon{
+        left: -60px;
+    }
+    .about_section .timeline .timeline_item{
+        margin-bottom: 40px;
+    }
+    .about_section .timeline .timeline_item:last-child{
+        margin-bottom: 0;
+    }
+    .about_section .timeline .timeline_item:nth-child(odd) .timeline_item_inner::before{
+        left: -30px;
+        right: auto;
+    }
+}
+
+@media(max-width: 574px){
+    .home_section .home_img .img_box{
+        max-width: 260px;
+    }
+    .home_section .home_text h2{
+        font-size: 40px;
+    }
+    .effect_4{
+        top: 10%;
+        left: 15%;
+    }
+    .effect_5{
+        top: 50%;
+        right: 7%;
+    }
+}
